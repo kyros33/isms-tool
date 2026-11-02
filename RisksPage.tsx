@@ -1,0 +1,1 @@
+export function RisksPage(){return <><h1>Risiken</h1><section className="card"><h2>Risikoregister</h2><p>Platzhalter für inhärente Risiken, Massnahmen, Restrisiken und Akzeptanzen.</p></section></>};

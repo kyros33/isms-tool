@@ -1,0 +1,1 @@
+export interface Env { DB: D1Database; DOCUMENTS: R2Bucket; APP_ENV: string; SESSION_SECRET?: string; }
