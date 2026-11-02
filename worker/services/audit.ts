@@ -1,0 +1,2 @@
+import type { Env } from "../types";
+export async function writeAudit(env:Env, entry:{tenantId:string; actorId:string; entityType:string; entityId:string; action:string; details?:unknown}) { await env.DB.prepare("INSERT INTO audit_logs (id, tenant_id, actor_id, entity_type, entity_id, action, details_json, created_at) VALUES (?, ?, ?, ?, ?, ?, ?, datetime('now'))").bind(crypto.randomUUID(),entry.tenantId,entry.actorId,entry.entityType,entry.entityId,entry.action,JSON.stringify(entry.details ?? {})).run(); }

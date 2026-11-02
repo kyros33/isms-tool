@@ -1,0 +1,1 @@
+export function KpisPage(){return <><h1>KPI</h1><section className="card"><h2>KPI-Katalog</h2><p>Platzhalter für Zielwerte, Messungen, Trends und Abweichungsmassnahmen.</p></section></>};

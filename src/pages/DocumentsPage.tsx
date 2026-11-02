@@ -1,0 +1,1 @@
+export function DocumentsPage(){return <><h1>Dokumente</h1><section className="card"><h2>Dokumentenregister</h2><p>Platzhalter für Dokumenterstellung, Versionierung, Review und Freigabeworkflow.</p></section></>};
