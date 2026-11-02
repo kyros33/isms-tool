@@ -7,8 +7,8 @@
   "assets": { "not_found_handling": "single-page-application" },
   "d1_databases": [{
     "binding": "DB",
-    "database_name": "isms-db",
-    "database_id": "REPLACE_WITH_D1_DATABASE_ID",
+    "database_name": "isms-db-copilot",
+    "database_id": "52921e2d-8bf4-46ee-b4ca-3cb2a035d819",
     "migrations_dir": "migrations"
   }],
   "r2_buckets": [{
