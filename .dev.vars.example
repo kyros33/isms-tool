@@ -1,0 +1,2 @@
+# Lokale Secrets, nie committen
+SESSION_SECRET=replace-me
