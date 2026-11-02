@@ -1,6 +1,6 @@
 {
   "$schema": "./node_modules/wrangler/config-schema.json",
-  "name": "isms-platform",
+  "name": "isms-tool",
   "main": "./worker/index.ts",
   "compatibility_date": "2026-11-02",
   "upload_source_maps": true,
